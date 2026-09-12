@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    background-color: #0171f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.logo {
+    width: 75px;
+}
+
+.header-links a {
+    color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.header-links a:hover {
+    color: black;
+    background-color: white;
+}
+
+.btn{
+    color: white;
+    background-color: rgb(255, 0, 255);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+
+
+.btn:hover {
+    background-color: rgb(15, 15, 15);
+}
+
+.landing-logo{
+    width: 250px;
+}
+
+.landing-page{
+    background-color: #0171f9 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 25px 50px;
+    border-radius: 0 0 75px 75px;
+}
+
+.landing-page-left{
+    width: 400px;
+}
+
+.landing-page-search input{
+    border-radius: 50px;
+    border:none;
+    outline: none;
+    height: 30px;
+    padding: 0 10px;
+}
+.landing-page-search button{
+    position: absolute;
+    left: 200px;
+    border-radius: 20px;
+    padding: 0 20px;
+    border:none;
+    height: 30px
+    
+}
+
+.landing-page-image-container img {
+    border-radius: 20px;
+}
+
+.trending-container{
+    padding: 25px 50px;
+}
+
+.trending-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trending-header h1 {
+    margin: 0;
+}
+
+.trending-card-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px 10px;
+    
+    
+    
+}
+
+.trending-container span {
+    color: rgb(255, 0, 255);
+    text-transform: uppercase;
+}
+
+.card {
+    width: 300px;
+    background-color: #EEEEEE;
+    border-radius: 20px;
+    
+}
+
+.card img{
+    width: 300px;
+    border-radius: 20px 20px 0 0 ;
+    
+}
+
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    border-radius:0 0 20px 20px;
+    padding: 5px 25px;
+    align-items: center;
+}
+
+.card-info img {
+    width: 75px;
+    border-radius: 20px ;
+
+}
+
+.price{
+    display: flex;
+    color:  rgb(235, 106, 235) ;
+    
+}
